@@ -6,5 +6,5 @@ pillow
 tqdm
 tifffile
 scikit-image
-opencv-python
+opencv-python-headless
 seaborn
