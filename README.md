@@ -1,6 +1,6 @@
 # Regularization-by-Denoising-RED
 
-Welcome to the **Regularization-by-Denoising-RED** repository! This project explores various algorithms for image denoising, leveraging both traditional methods and modern deep learning techniques. The core focus is on **Regularization by Denoising (RED)** and its integration with different denoising engines, including median filters and neural networks.
+Welcome to the **Regularization-by-Denoising-RED** repository! This project explores various algorithms for image deblurring and denoising, leveraging both traditional methods and modern deep learning techniques. The core focus is on **Regularization by Denoising (RED)** and its integration with different denoising engines, including median filters and neural networks.
 
 ## Table of Contents
 
