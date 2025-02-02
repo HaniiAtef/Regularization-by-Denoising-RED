@@ -6,10 +6,11 @@ Welcome to the **Regularization-by-Denoising-RED** repository! This project expl
 
 - [Project Structure](#project-structure)
   - [📁 CNN](#-cnn)
-  - [📁 helper_functions](#-helper_functions)
   - [📁 Pre_trained](#-pre_trained)
   - [📁 RED](#-red)
   - [📁 RED_NN](#-red_nn)
+  - [📁 helper_functions](#-helper_functions)
+  - [📁 test_images](#-test_images)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -51,17 +52,7 @@ This folder contains the implementation of an image denoiser using Convolutional
   - **Description:**  
     The trained CNN model without bias terms. This model offers an alternative denoising approach, potentially affecting the model's performance and generalization.
 
-### 📁 helper_functions
 
-**Description:**  
-Contains utility functions that are commonly used across different modules of the project. These functions facilitate tasks such as data preprocessing, evaluation metrics calculation, and visualization.
-
-**Contents:**
-- `helper_functions.py`  
-  - **Purpose:**  
-    A collection of helper functions for image processing and algorithm execution, including functions for loading images, calculating PSNR, and visualizing results.
-  - **Usage:**  
-    - Import necessary functions in your scripts or notebooks to streamline your workflow.
 
 ### 📁 Pre_trained
 
@@ -140,7 +131,22 @@ Similar to the RED folder, but integrates trained neural network denoisers inste
     A Jupyter Notebook for testing and running RED algorithms with Pre- Trained neural network denoisers engines.
   - **Usage:**  
     - Open the notebook to execute and visualize the performance of different RED algorithms with Pre - Trained neural network denoisers engines.
+   
+### 📁 helper_functions
 
+**Description:**  
+Contains utility functions that are commonly used across different modules of the project. These functions facilitate tasks such as data preprocessing, evaluation metrics calculation, and visualization.
+
+**Contents:**
+- `helper_functions.py`  
+  - **Purpose:**  
+    A collection of helper functions for image processing and algorithm execution, including functions for loading images, calculating PSNR, and visualizing results.
+  - **Usage:**  
+    - Import necessary functions in your scripts or notebooks to streamline your workflow.
+
+### 📁 test_images
+**Description:**  
+Contains sample images used for testing and evaluating the algorithms.
 
 ## Getting Started
 
