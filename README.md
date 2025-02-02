@@ -5,11 +5,11 @@ Welcome to the **Regularization-by-Denoising-RED** repository! This project expl
 ## Table of Contents
 
 - [Project Structure](#project-structure)
-  - [CNN](#cnn)
-  - [helper_functions](#helper_functions)
-  - [Pre_trained](#pre_trained)
-  - [RED](#red)
-  - [RED_NN](#red_nn)
+  - [📁 CNN](#-cnn)
+  - [📁 helper_functions](#-helper_functions)
+  - [📁 Pre_trained](#-pre_trained)
+  - [📁 RED](#-red)
+  - [📁 RED_NN](#-red_nn)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -23,7 +23,7 @@ Welcome to the **Regularization-by-Denoising-RED** repository! This project expl
 
 The repository is organized into several folders, each dedicated to different components and functionalities of the project:
 
-### CNN
+### 📁 CNN
 
 **Description:**  
 This folder contains the implementation of an image denoiser using Convolutional Neural Networks (CNNs). The denoiser is designed to learn and remove noise from images through training on paired datasets of noisy and clean images.
@@ -51,7 +51,7 @@ This folder contains the implementation of an image denoiser using Convolutional
   - **Description:**  
     The trained CNN model without bias terms. This model offers an alternative denoising approach, potentially affecting the model's performance and generalization.
 
-### helper_functions
+### 📁 helper_functions
 
 **Description:**  
 Contains utility functions that are commonly used across different modules of the project. These functions facilitate tasks such as data preprocessing, evaluation metrics calculation, and visualization.
@@ -63,7 +63,7 @@ Contains utility functions that are commonly used across different modules of th
   - **Usage:**  
     - Import necessary functions in your scripts or notebooks to streamline your workflow.
 
-### Pre_trained
+### 📁 Pre_trained
 
 **Description:**  
 This directory houses a cloned GitHub repository containing pre-trained image denoising models. These models can be utilized directly to perform denoising tasks without the need for additional training.
@@ -76,7 +76,7 @@ This directory houses a cloned GitHub repository containing pre-trained image de
     - **Usage:**  
       - Use the pre-trained models to denoise images by following the instructions provided in the cloned repository.
 
-### RED
+### 📁 RED
 
 **Description:**  
 Implements the Regularization by Denoising (RED) framework using traditional denoising engines, specifically the median filter. This folder includes all necessary algorithms such as ADMM, Fixed Point, Gradient Descent (GD), and Accelerated Gradient Descent (AGD).
@@ -105,7 +105,7 @@ Implements the Regularization by Denoising (RED) framework using traditional den
   - **Usage:**  
     - Open the notebook to execute and visualize the performance of different RED algorithms with the median filter.
 
-### RED_NN
+### 📁 RED_NN
 
 **Description:**  
 Similar to the RED folder, but integrates trained neural network denoisers instead of traditional filters. This setup includes both custom-trained neural networks and pre-trained models, providing notebooks to test and run the algorithms.
